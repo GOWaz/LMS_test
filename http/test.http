@@ -1,0 +1,28 @@
+###
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "1",
+  "author": "1",
+  "isbn": "1111111111111",
+  "publishDate": "1111-11-11"
+}
+
+###
+POST http://localhost:8080/api/patrons
+Content-Type: application/json
+
+{
+  "name": "1",
+  "contactInfo": "1"
+}
+
+
+###
+POST http://localhost:8080/api/borrow/1/patron/1
+Content-Type: application/x-www-form-urlencoded
+
+###
+PUT http://localhost:8080/api/borrow/return/1/patron/1
+Content-Type: application/x-www-form-urlencoded
