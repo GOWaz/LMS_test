@@ -112,7 +112,3 @@ This is a **Library Management System API** built using **Spring Boot**. The sys
 - **Testing**: Effective coverage of services and repository layers.
 - **Bonus Features**: Authentication, caching, AOP logging, and transaction management.
 
----
-
-**Note:** Ensure your repository is public for easy access.
-
